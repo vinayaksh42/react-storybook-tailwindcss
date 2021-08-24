@@ -1,0 +1,47 @@
+.right {
+
+float: right;
+}
+
+.template {
+position: relative;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: white;
+position: absolute;
+width: 100%;
+z-index: -1;
+top: 0;
+left: 0;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+
+.active {
+margin: 0px 15px;
+}

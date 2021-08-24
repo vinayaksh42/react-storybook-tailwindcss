@@ -1,0 +1,23 @@
+.org {
+    @apply w-max h-screen p-6 bg-grey700 !important;
+    background-color: #3F3F46;
+    padding: 30px;
+    position: relative; 
+    height: 900px;
+    width: max-content;
+}
+
+.divider {
+    color: #52525B;
+    @apply mb-6;
+    margin-bottom: 20px;
+}
+
+.bot {
+    position: absolute; 
+    bottom: 0; 
+    width: 85%; 
+}
+.bot-divider {
+    color: #52525B;
+}
