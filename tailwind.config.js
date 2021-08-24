@@ -9,6 +9,7 @@ module.exports = {
       grey300: '#D4D4D8',
       grey600: '#52525B',
       grey700: '#3F3F46',
+      hr: '#52525B',
     },
   },
   variants: {

@@ -1,37 +1,15 @@
 .cat {
-/* Grey 400 */
-background: #52525B;
-border-radius: 4px;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 10px 38px 10px 30px;
-width: 280px;
-height: 40px;
-display: flex;
-flex-direction: row;
-align-items: center;
-border-radius: 4px;
+    @apply bg-grey600 rounded flex flex-row items-center h-10;
+    padding: 10px 38px 10px 30px;
+    width: 280px;
 }
 
 .cat-text {
-height: auto;
-text-align: center;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-display: flex;
-align-items: flex-end;
-color: #FFFFFF;
-flex: none;
-order: 1;
-flex-grow: 0;
+    @apply h-auto text-center not-italic font-normal text-base leading-6 flex items-end flex-none order-1 flex-grow-0;
+    color: white;
 }
 
 .cat-logo {
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 6px;
+    @apply flex-none order-none flex-grow-0;
+    margin: 0px 6px;
 }

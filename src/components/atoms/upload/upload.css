@@ -1,19 +1,8 @@
 .upload-logo {
-width: 24px;
-height: 24px;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 10px;
+    @apply w-6 h-6 flex-none order-none flex-grow-0;
+    margin: 0px 10px;
 }
 
 .upload-logo-outer {
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 8px;
-float: left;
-
-width: 40px;
-height: 40px;
+    @apply flex flex-row items-start p-2 float-left w-10 h-10;
 }

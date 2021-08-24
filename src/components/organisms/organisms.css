@@ -1,23 +1,14 @@
 .org {
-    @apply w-max h-screen p-6 bg-grey700 !important;
-    background-color: #3F3F46;
-    padding: 30px;
-    position: relative; 
-    height: 900px;
-    width: max-content;
+    @apply w-max relative h-screen p-6 bg-grey700 !important;
 }
 
 .divider {
-    color: #52525B;
-    @apply mb-6;
-    margin-bottom: 20px;
+    @apply mb-6 text-hr;
 }
 
 .bot {
-    position: absolute; 
-    bottom: 0; 
-    width: 85%; 
+    @apply bottom-0 absolute w-10/12;
 }
 .bot-divider {
-    color: #52525B;
+    @apply text-hr;
 }

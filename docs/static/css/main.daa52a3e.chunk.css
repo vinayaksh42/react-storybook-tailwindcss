@@ -1,0 +1,100 @@
+.btn {
+    @apply flex flex-row justify-center items-center bg-grey400 rounded h-10;
+    padding: 10px 36px 10px 32px;
+    width: 280px;
+}
+
+.btn-text {
+    @apply h-auto relative text-center not-italic font-bold text-xs leading-5 flex items-end uppercase flex-none order-1 flex-grow-0;
+    margin: 0px 12px;
+    color: white;
+}
+
+.btn-logo {
+    @apply flex-none order-none flex-grow-0;
+    margin: 0px 12px;
+}
+.cat {
+    @apply bg-grey600 rounded flex flex-row items-center h-10;
+    padding: 10px 38px 10px 30px;
+    width: 280px;
+}
+
+.cat-text {
+    @apply h-auto text-center not-italic font-normal text-base leading-6 flex items-end flex-none order-1 flex-grow-0;
+    color: white;
+}
+
+.cat-logo {
+    @apply flex-none order-none flex-grow-0;
+    margin: 0px 6px;
+}
+.text {
+    @apply font-bold text-sm leading-5 uppercase text-left;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color: white
+}
+.btn-spacing {
+    @apply mt-2;
+}
+.org {
+    @apply w-max relative h-screen p-6 bg-grey700 !important;
+}
+
+.divider {
+    @apply mb-6 text-hr;
+}
+
+.bot {
+    @apply bottom-0 absolute w-10/12;
+}
+.bot-divider {
+    @apply text-hr;
+}
+.upload-logo {
+    @apply w-6 h-6 flex-none order-none flex-grow-0;
+    margin: 0px 10px;
+}
+
+.upload-logo-outer {
+    @apply flex flex-row items-start p-2 float-left w-10 h-10;
+}
+.Exit-logo {
+    @apply w-6 h-6 flex-none order-none flex-grow-0;
+    margin: 0px 10px;
+}
+    
+.Exit-logo-outer {
+    @apply flex flex-row items-start p-2 float-right w-10 h-10;
+}
+.right {
+    @apply float-right;
+}
+
+.template {
+    @apply relative;
+}
+
+ul {
+    @apply list-none m-0 p-0 overflow-hidden absolute w-full top-0 left-0;
+    background-color: white;
+    z-index: -1;
+}
+
+li {
+    @apply float-left;
+}
+
+li a {
+    @apply block text-center no-underline not-italic font-bold text-sm leading-5 uppercase;
+    color: black;
+    padding: 14px 16px;
+    letter-spacing: 0.02em;
+}
+
+.active {
+    margin: 0px 15px;
+}
+
+/*# sourceMappingURL=main.daa52a3e.chunk.css.map*/
