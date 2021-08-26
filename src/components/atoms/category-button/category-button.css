@@ -1,6 +1,6 @@
 .cat {
     @apply bg-grey600 rounded flex flex-row items-center h-10;
-    padding: 10px 38px 10px 30px;
+    padding: 10px 38px 10px 10px;
     width: 280px;
 }
 
