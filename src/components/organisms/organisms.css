@@ -1,5 +1,6 @@
 .org {
-    @apply w-max relative h-screen p-6 bg-grey700 !important;
+    @apply w-max relative p-6 bg-grey700 !important;
+    height: 700px;
 }
 
 .divider {
